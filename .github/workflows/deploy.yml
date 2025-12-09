@@ -50,4 +50,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: <a href="mailto:actions/deploy-pages@v4" rel="noreferrer noopener" title="mailto:actions/deploy-pages@v4" target="_blank">actions/deploy-pages@v4</a>
+        uses: actions/deploy-pages@v4
