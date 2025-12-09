@@ -1,0 +1,67 @@
+# ------------------------------
+# Node / npm
+# ------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-store/
+
+# Build output (Figma plugin bundles)
+dist/
+build/
+
+# Figma plugin manifest backup (if generated)
+manifest.json.backup
+
+# ------------------------------
+# macOS system files
+# ------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# macOS Trash folder (in repo root sometimes)
+.Trashes
+
+# Spotlight & indexing
+.Spotlight-V100
+.fseventsd
+
+# ------------------------------
+# VS Code
+# ------------------------------
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Workspace settings backup
+*.code-workspace
+
+# ------------------------------
+# Logs & diagnostics
+# ------------------------------
+logs/
+*.log
+*.gz
+*.tgz
+
+# ------------------------------
+# Environment files
+# ------------------------------
+.env
+.env.*.local
+
+# ------------------------------
+# Miscellaneous
+# ------------------------------
+*.tmp
+*.temp
+*.swp
+*.swo
