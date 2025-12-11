@@ -5,8 +5,9 @@ import { AboutSection } from './components/AboutSection';
 import { EducationSection } from './components/EducationSection';
 import { ExperienceSection } from './components/ExperienceSection';
 import { SkillsSection } from './components/SkillsSection';
+import { ResearchSection } from './components/ResearchSection';
 
-type Tab = 'about' | 'education' | 'experience' | 'skills';
+type Tab = 'about' | 'education' | 'experience' | 'skills' | 'research';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<Tab>('about');
@@ -23,6 +24,7 @@ export default function App() {
             {activeTab === 'education' && <EducationSection />}
             {activeTab === 'experience' && <ExperienceSection />}
             {activeTab === 'skills' && <SkillsSection />}
+            {activeTab === 'research' && <ResearchSection />}
           </div>
         </div>
       </div>
