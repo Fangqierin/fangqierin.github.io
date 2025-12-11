@@ -37,8 +37,13 @@
   :root, :host {
     --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --color-amber-100: oklch(.962 .059 95.617);
+    --color-amber-700: oklch(.555 .163 48.998);
+    --color-green-100: oklch(.962 .044 156.743);
+    --color-green-700: oklch(.527 .154 150.069);
     --color-blue-50: oklch(.97 .014 254.604);
     --color-blue-100: oklch(.932 .032 255.585);
+    --color-blue-200: oklch(.882 .059 254.128);
     --color-blue-600: oklch(.546 .245 262.881);
     --color-blue-700: oklch(.488 .243 264.376);
     --color-purple-50: oklch(.977 .014 308.299);
@@ -493,12 +498,8 @@
     flex: 1;
   }
 
-  .list-inside {
-    list-style-position: inside;
-  }
-
-  .list-disc {
-    list-style-type: disc;
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .flex-col {
@@ -601,6 +602,11 @@
     border-radius: var(--radius);
   }
 
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+
   .border-4 {
     border-style: var(--tw-border-style);
     border-width: 4px;
@@ -621,9 +627,18 @@
     border-bottom-width: 2px;
   }
 
+  .border-l-2 {
+    border-left-style: var(--tw-border-style);
+    border-left-width: 2px;
+  }
+
   .border-l-4 {
     border-left-style: var(--tw-border-style);
     border-left-width: 4px;
+  }
+
+  .border-blue-200 {
+    border-color: var(--color-blue-200);
   }
 
   .border-blue-600 {
@@ -642,12 +657,20 @@
     border-color: var(--color-white);
   }
 
+  .bg-amber-100 {
+    background-color: var(--color-amber-100);
+  }
+
   .bg-blue-50 {
     background-color: var(--color-blue-50);
   }
 
   .bg-blue-100 {
     background-color: var(--color-blue-100);
+  }
+
+  .bg-green-100 {
+    background-color: var(--color-green-100);
   }
 
   .bg-slate-50 {
@@ -756,6 +779,10 @@
     padding-bottom: calc(var(--spacing) * 6);
   }
 
+  .pl-4 {
+    padding-left: calc(var(--spacing) * 4);
+  }
+
   .pl-6 {
     padding-left: calc(var(--spacing) * 6);
   }
@@ -783,6 +810,10 @@
     white-space: nowrap;
   }
 
+  .text-amber-700 {
+    color: var(--color-amber-700);
+  }
+
   .text-blue-100 {
     color: var(--color-blue-100);
   }
@@ -793,6 +824,10 @@
 
   .text-blue-700 {
     color: var(--color-blue-700);
+  }
+
+  .text-green-700 {
+    color: var(--color-green-700);
   }
 
   .text-purple-600 {

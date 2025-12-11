@@ -1,6 +1,6 @@
-import { User, GraduationCap, Briefcase, Award, FlaskConical } from 'lucide-react@0.487.0';
+import { User, GraduationCap, Briefcase, Award, FileText, Users } from 'lucide-react@0.487.0';
 
-type Tab = 'about' | 'education' | 'experience' | 'skills' | 'research';
+type Tab = 'about' | 'education' | 'experience' | 'skills' | 'publications' | 'mentoring';
 
 interface TabNavigationProps {
   activeTab: Tab;
@@ -12,8 +12,9 @@ export function TabNavigation({ activeTab, onTabChange }: TabNavigationProps) {
     { id: 'about' as Tab, label: 'About Me', icon: User },
     { id: 'education' as Tab, label: 'Education', icon: GraduationCap },
     { id: 'experience' as Tab, label: 'Experience', icon: Briefcase },
+    { id: 'publications' as Tab, label: 'Publications', icon: FileText },
+    { id: 'mentoring' as Tab, label: 'Service', icon: Users },
     { id: 'skills' as Tab, label: 'Skills', icon: Award },
-    { id: 'research' as Tab, label: 'Research', icon: FlaskConical },
   ];
 
   return (

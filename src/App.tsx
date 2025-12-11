@@ -5,9 +5,10 @@ import { AboutSection } from './components/AboutSection';
 import { EducationSection } from './components/EducationSection';
 import { ExperienceSection } from './components/ExperienceSection';
 import { SkillsSection } from './components/SkillsSection';
-import { ResearchSection } from './components/ResearchSection';
+import { PublicationsSection } from './components/PublicationsSection';
+import { MentoringSection } from './components/MentoringSection';
 
-type Tab = 'about' | 'education' | 'experience' | 'skills' | 'research';
+type Tab = 'about' | 'education' | 'experience' | 'skills' | 'publications' | 'mentoring';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<Tab>('about');
@@ -24,7 +25,8 @@ export default function App() {
             {activeTab === 'education' && <EducationSection />}
             {activeTab === 'experience' && <ExperienceSection />}
             {activeTab === 'skills' && <SkillsSection />}
-            {activeTab === 'research' && <ResearchSection />}
+            {activeTab === 'publications' && <PublicationsSection />}
+            {activeTab === 'mentoring' && <MentoringSection />}
           </div>
         </div>
       </div>

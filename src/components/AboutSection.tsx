@@ -31,27 +31,27 @@ export function AboutSection() {
       </div>
 
       <div className="border-t border-slate-200 pt-6">
-        <h3 className="text-slate-900 mb-4">Key Achievements</h3>
+        <h3 className="text-slate-900 mb-4">Awards & Recognition</h3>
         <ul className="space-y-3 text-slate-600">
           <li className="flex items-start gap-2">
-            <span className="text-blue-600 mt-1">•</span>
-            <span>Named a CSP Rising Star in CPS Rising Stars 2023 Workshop</span>
+            <span className="text-blue-600 mt-1">🏆</span>
+            <span><strong>AAMAS 2025 Best Paper Finalist</strong> – Reinforcement learning research for Vehicle-to-Building charging with heterogeneous agents</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-blue-600 mt-1">⭐</span>
+            <span><strong>CPS Rising Star</strong> – Selected as a rising star in Cyber-Physical Systems, CPS Rising Stars 2023 Workshop</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-blue-600 mt-1">•</span>
-            <span>Best Paper Finalist at AAMAS 2025 for reinforcement learning research</span>
+            <span>Published 14 conference papers and 4 journal articles in top-tier venues including ICCPS, AAMAS, SRDS, and IEEE TITS</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-blue-600 mt-1">•</span>
-            <span>Published 10+ conference papers and journal articles in top-tier venues</span>
+            <span>Program Co-Chair for DESTION 2025 Workshop (7th International Workshop on Design Automation for CPS and IoT)</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-blue-600 mt-1">•</span>
-            <span>Program Co-Chair for DESTION 2025 Workshop</span>
-          </li>
-          <li className="flex items-start gap-2">
-            <span className="text-blue-600 mt-1">•</span>
-            <span>Patent holder for vehicular network communication methods</span>
+            <span>Patent holder for vehicular network communication methods (China, No. 201510702461)</span>
           </li>
         </ul>
       </div>
