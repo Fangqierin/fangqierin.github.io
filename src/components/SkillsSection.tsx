@@ -2,42 +2,19 @@ export function SkillsSection() {
   const skillCategories = [
     {
       category: 'Programming Languages',
-      skills: [
-        { name: 'Python', level: 95 },
-        { name: 'C/C++', level: 90 },
-      ],
+      skills: ['Python', 'C/C++'],
     },
     {
       category: 'Networking & Simulation',
-      skills: [
-        { name: 'OMNET++', level: 90 },
-        { name: 'NS-3', level: 85 },
-        { name: 'SUMO', level: 85 },
-        { name: 'GNS3', level: 80 },
-        { name: 'Wireshark', level: 85 },
-        { name: 'ONE Simulator', level: 80 },
-      ],
+      skills: ['OMNET++', 'NS-3', 'SUMO', 'GNS3', 'Wireshark', 'ONE Simulator'],
     },
     {
       category: 'Data Science & Machine Learning',
-      skills: [
-        { name: 'Pandas', level: 90 },
-        { name: 'NumPy', level: 90 },
-        { name: 'MATLAB', level: 85 },
-        { name: 'MongoDB', level: 80 },
-        { name: 'TensorFlow', level: 85 },
-        { name: 'Reinforcement Learning', level: 88 },
-      ],
+      skills: ['Pandas', 'NumPy', 'MATLAB', 'MongoDB', 'TensorFlow', 'Reinforcement Learning'],
     },
     {
       category: 'System & Tools',
-      skills: [
-        { name: 'Linux CLI', level: 90 },
-        { name: 'VMware', level: 85 },
-        { name: 'OpenCV', level: 85 },
-        { name: 'Raspberry Pi', level: 88 },
-        { name: 'Drone Systems', level: 90 },
-      ],
+      skills: ['Linux CLI', 'VMware', 'OpenCV', 'Raspberry Pi', 'Drone Systems'],
     },
   ];
 
@@ -79,22 +56,19 @@ export function SkillsSection() {
       
       {skillCategories.map((category, index) => (
         <div key={index} className="space-y-4">
-          <h3 className="text-slate-900">{category.category}</h3>
+          <h3 className="text-lg font-semibold text-slate-900 flex items-center gap-2">
+            <span className="w-1 h-6 bg-gradient-to-b from-blue-500 to-purple-500 rounded-full"></span>
+            {category.category}
+          </h3>
           
-          <div className="space-y-4">
+          <div className="flex flex-wrap gap-3">
             {category.skills.map((skill, i) => (
-              <div key={i}>
-                <div className="flex justify-between mb-2">
-                  <span className="text-slate-700">{skill.name}</span>
-                  <span className="text-slate-500">{skill.level}%</span>
-                </div>
-                <div className="w-full bg-slate-200 rounded-full h-2.5 overflow-hidden">
-                  <div
-                    className="bg-gradient-to-r from-blue-600 to-purple-600 h-2.5 rounded-full transition-all duration-1000"
-                    style={{ width: `${skill.level}%` }}
-                  />
-                </div>
-              </div>
+              <span 
+                key={i}
+                className="px-4 py-2 bg-gradient-to-r from-blue-50 to-purple-50 text-slate-700 rounded-lg text-sm font-medium border border-blue-100 hover:border-blue-300 hover:shadow-sm transition-all duration-200"
+              >
+                {skill}
+              </span>
             ))}
           </div>
         </div>

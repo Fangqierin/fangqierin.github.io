@@ -2,11 +2,12 @@ export function PublicationsSection() {
   const conferencePublications = [
     {
       year: 2026,
-      status: "Under review",
+      status: "Under review/Accepted",
       papers: [
-        'Nath, V., Liu, Fangqi, He, G., Rogers, D., (2026). "SchoolRide: A Platform for School Bus Disruption Management and Operational Resilience". In: Proceedings of the 2026 ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS).',
-        'Sen, R., Liu, Fangqi, Talusan, J. P., Pettet, A., (2026a). "CONSENT: A Negotiation Framework for Leveraging User Flexibility in Vehicle-to-Building Charging under Uncertainty". In: AAMAS 2026 Conference Submission.',
-        'Sen, R., Liu, Fangqi, Talusan, J. P., Pettet, A., (2026b). "P-V2B: A Neuro-Symbolic Framework for Leveraging User Persistence in Vehicle-to-Building Charging". In: Proceedings of the 2026 ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS).',
+        'Nath, V., Liu, Fangqi, He, G., Rogers, D., (2026). "SchoolRide: A Platform for School Bus Disruption Management and Operational Resilience". In: Proceedings of the 2026 ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS), (Under review)',
+        'Sen, R., Liu, Fangqi, Talusan, J. P., Pettet, A., (2026). "P-V2B: A Neuro-Symbolic Framework for Leveraging User Persistence in Vehicle-to-Building Charging". In: Proceedings of the 2026 ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS). (Under review)',
+        'Sen, R., Liu, Fangqi, Talusan, J. P., Pettet, A., (2026). "CONSENT: A Negotiation Framework for Leveraging User Flexibility in Vehicle-to-Building Charging under Uncertainty". In: AAMAS 2026 (Accepted)',
+
       ]
     },
     {
