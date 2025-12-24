@@ -31,9 +31,9 @@ export function ProfileHeader() {
           </div>
           
           <div className="flex justify-center md:justify-start gap-3 mt-4">
-            <a href="https://sites.google.com/a/uci.edu/fangqi-liu/" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/20 hover:bg-white/30 rounded-lg transition-colors">
+            {/* <a href="https://sites.google.com/a/uci.edu/fangqi-liu/" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/20 hover:bg-white/30 rounded-lg transition-colors">
               <Globe className="w-5 h-5 text-white" />
-            </a>
+            </a> */}
             <a href="https://scholar.google.com/citations?user=4utO7BMAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/20 hover:bg-white/30 rounded-lg transition-colors">
               <GraduationCap className="w-5 h-5 text-white" />
             </a>
