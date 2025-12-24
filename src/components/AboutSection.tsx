@@ -43,7 +43,7 @@ export function AboutSection() {
           </li>
           <li className="flex items-start gap-2">
             <span className="text-blue-600 mt-1">•</span>
-            <span>Published 14 conference papers and 4 journal articles in top-tier venues including ICCPS, AAMAS, SRDS, and IEEE TITS</span>
+            <span>Published 10 conference papers and 2 journal articles in top-tier venues including ICCPS, AAMAS, SRDS, and IEEE TITS</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-blue-600 mt-1">•</span>
