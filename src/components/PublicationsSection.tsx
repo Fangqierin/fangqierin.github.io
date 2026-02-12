@@ -4,8 +4,8 @@ export function PublicationsSection() {
       year: 2026,
       status: "Under review/Accepted",
       papers: [
-        'Nath, V., Liu, Fangqi, He, G., Rogers, D., (2026). "SchoolRide: A Platform for School Bus Disruption Management and Operational Resilience". In: Proceedings of the 2026 ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS), (Under review)',
-        'Sen, R., Liu, Fangqi, Talusan, J. P., Pettet, A., (2026). "P-V2B: A Neuro-Symbolic Framework for Leveraging User Persistence in Vehicle-to-Building Charging". In: Proceedings of the 2026 ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS). (Under review)',
+        'Nath, V., Liu, Fangqi, He, G., Rogers, D., (2026). "SchoolRide: A Platform for School Bus Disruption Management and Operational Resilience". In: Proceedings of the 2026 ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS), (Accepted)',
+        'Sen, R., Liu, Fangqi, Talusan, J. P., Pettet, A., (2026). "P-V2B: A Neuro-Symbolic Framework for Leveraging User Persistence in Vehicle-to-Building Charging". In: Proceedings of the 2026 ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS). (Accepted)',
         'Sen, R., Liu, Fangqi, Talusan, J. P., Pettet, A., (2026). "CONSENT: A Negotiation Framework for Leveraging User Flexibility in Vehicle-to-Building Charging under Uncertainty". In: AAMAS 2026 (Accepted)',
 
       ]
@@ -61,10 +61,16 @@ export function PublicationsSection() {
   const journalPublications = [
     {
       year: 2025,
+      status: "Accepted",
+      papers: [
+        'Li, Y., Liu, Fangqi, Chang, T.-Y., Hsu, C.-H., Venkatasubramanian, N., (2025). "Microservice Provisioning and Event-Driven Adaptation in Heterogeneous IoT Settings". In: Pervasive and Mobile Computing. (Accepted)',
+      ]
+    },
+    {
+      year: 2025,
       status: "Under review",
       papers: [
         'Khanna, A., Liu, Fangqi, Gupta, S., Pavia, S., Mukhopadhyay, A., Dubey, A., (2025). "Dynamic Routing for the Pickup-and-Delivery Problem with Time Windows and Breaks". In: Pervasive and Mobile Computing.',
-        'Li, Y., Liu, Fangqi, Chang, T.-Y., Hsu, C.-H., Venkatasubramanian, N., (2025). "Microservice Provisioning and Event-Driven Adaptation in Heterogeneous IoT Settings". In: Pervasive and Mobile Computing.',
       ]
     },
     {
