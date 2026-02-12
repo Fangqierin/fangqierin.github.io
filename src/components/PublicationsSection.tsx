@@ -2,7 +2,7 @@ export function PublicationsSection() {
   const conferencePublications = [
     {
       year: 2026,
-      status: "Under review/Accepted",
+      status: "Accepted",
       papers: [
         'Nath, V., Liu, Fangqi, He, G., Rogers, D., (2026). "SchoolRide: A Platform for School Bus Disruption Management and Operational Resilience". In: Proceedings of the 2026 ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS), (Accepted)',
         'Sen, R., Liu, Fangqi, Talusan, J. P., Pettet, A., (2026). "P-V2B: A Neuro-Symbolic Framework for Leveraging User Persistence in Vehicle-to-Building Charging". In: Proceedings of the 2026 ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS). (Accepted)',
@@ -63,7 +63,7 @@ export function PublicationsSection() {
       year: 2025,
       status: "Accepted",
       papers: [
-        'Li, Y., Liu, Fangqi, Chang, T.-Y., Hsu, C.-H., Venkatasubramanian, N., (2025). "Microservice Provisioning and Event-Driven Adaptation in Heterogeneous IoT Settings". In: Pervasive and Mobile Computing. (Accepted)',
+        'Li, Y., Liu, Fangqi, Chang, T.-Y., Hsu, C.-H., Venkatasubramanian, N., (2025). "Microservice Provisioning and Event-Driven Adaptation in Heterogeneous IoT Settings". In: Pervasive and Mobile Computing (Accepted).',
       ]
     },
     {
