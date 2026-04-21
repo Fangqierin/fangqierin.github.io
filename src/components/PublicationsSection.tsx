@@ -69,7 +69,7 @@ export function PublicationsSection() {
     },
     {
       year: 2025,
-      status: "Accepted",
+      status: "Published",
       papers: [
         'Li, Y., Liu, Fangqi, Chang, T.-Y., Hsu, C.-H., Venkatasubramanian, N., (2025). "Microservice Provisioning and Event-Driven Adaptation in Heterogeneous IoT Settings". In: Pervasive and Mobile Computing (Accepted).',
       ]
