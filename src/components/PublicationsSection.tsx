@@ -4,6 +4,7 @@ export function PublicationsSection() {
       year: 2026,
       status: "Accepted",
       papers: [
+        'Khanna, A., Pavia, S., Liu, Fangqi, Mukhopadhyay, A., Dubey, A., (2026). "Dynamic Pickup-and-Delivery Routing with Early-Arrival Waiting Limits and Station Relocation". In: IEEE International Conference on Smart Computing (SMARTCOMP). Accepted.',
         'Nath, V., Liu, Fangqi, He, G., Rogers, D., (2026). "SchoolRide: A Platform for School Bus Disruption Management and Operational Resilience". In: Proceedings of the 2026 ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS), (Accepted)',
         'Sen, R., Liu, Fangqi, Talusan, J. P., Pettet, A., (2026). "P-V2B: A Neuro-Symbolic Framework for Leveraging User Persistence in Vehicle-to-Building Charging". In: Proceedings of the 2026 ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS). (Accepted)',
         'Sen, R., Liu, Fangqi, Talusan, J. P., Pettet, A., (2026). "CONSENT: A Negotiation Framework for Leveraging User Flexibility in Vehicle-to-Building Charging under Uncertainty". In: AAMAS 2026 (Accepted)',
@@ -59,6 +60,13 @@ export function PublicationsSection() {
   ];
 
   const journalPublications = [
+    {
+      year: 2026,
+      status: "Under review",
+      papers: [
+        'Liu, Fangqi, Sen, R., Talusan, J. P., Pettet, A., (2026). "Reinforcement Learning-based Approach for Vehicle-to-Building Charging with Heterogeneous Agents and Long-Term Rewards". In: Autonomous Agents and Multi-Agent Systems (JAAMAS). Under review.',
+      ]
+    },
     {
       year: 2025,
       status: "Accepted",
@@ -154,7 +162,7 @@ export function PublicationsSection() {
 
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mt-8">
         <p className="text-slate-700">
-          <strong className="text-slate-900">Total:</strong> 14 conference publications, 4 journal publications, and 1 patent
+          <strong className="text-slate-900">Total:</strong> 15 conference publications, 5 journal publications, and 1 patent
         </p>
       </div>
     </div>
