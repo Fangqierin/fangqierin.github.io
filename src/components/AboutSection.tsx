@@ -4,7 +4,7 @@ export function AboutSection() {
       <div>
         <h2 className="text-slate-900 mb-4">About Me</h2>
         <p className="text-slate-600 leading-relaxed mb-4">
-          I am a Postdoctoral Scholar in the Department of Computer Science at Vanderbilt University's School of Engineering. 
+          I am a Research Scientist in the Department of Computer Science at Vanderbilt University's School of Engineering. 
           My research focuses on leveraging mobility to enhance IoT applications, with expertise in Internet of Things, 
           mobile wireless networks, mobile computing, cyber-physical systems, drones, and mobile sensing. I am currently 
           working on reinforcement learning (RL) and neural-symbolic AI approaches to address complex decision-making 

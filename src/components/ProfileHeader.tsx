@@ -13,7 +13,7 @@ export function ProfileHeader() {
         
         <div className="flex-1 text-center md:text-left text-white">
           <h1 className="text-white mb-2">Fangqi Liu</h1>
-          <p className="text-xl text-blue-100 mb-4">Postdoctoral Scholar in Computer Science</p>
+          <p className="text-xl text-blue-100 mb-4">Research Scientist in Computer Science</p>
           
           <div className="flex flex-wrap justify-center md:justify-start gap-4 text-sm text-blue-100">
             <div className="flex items-center gap-2">

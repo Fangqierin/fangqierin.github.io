@@ -3,11 +3,19 @@ import { Calendar, MapPin } from 'lucide-react@0.487.0';
 export function ExperienceSection() {
   const experiences = [
     {
+      title: 'Research Scientist',
+      company: 'Vanderbilt University',
+      department: 'Department/Program of Computer Science, School of Engineering',
+      location: 'Nashville, TN, USA',
+      period: '2026 - Present',
+      responsibilities: [],
+    },
+    {
       title: 'Postdoctoral Scholar',
       company: 'Vanderbilt University',
       department: 'Department/Program of Computer Science, School of Engineering',
       location: 'Nashville, TN, USA',
-      period: 'Sep. 15, 2023 - Present',
+      period: 'Sep. 15, 2023 - 2026',
       responsibilities: [
         'Conducting research on reinforcement learning for vehicle-to-building charging systems',
         'Published Best Paper Finalist at AAMAS 2025',
